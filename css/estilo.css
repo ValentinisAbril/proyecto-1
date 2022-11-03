@@ -2,3 +2,8 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+body{
+    background-color: darkkhaki;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
