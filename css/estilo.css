@@ -39,3 +39,7 @@ body{
     transition: .3s ease all;
     cursor: pointer;
 }
+
+.contenedor article .btn-abrir-popup:hover {
+    background-color: rgb(120 220 245);
+}
