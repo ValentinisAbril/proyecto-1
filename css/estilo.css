@@ -23,3 +23,19 @@ body{
     text-align: left;
     padding: 50px 0;
 }
+
+.contenedor article .btn-abrir-popup {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    color: lightskyblue;
+    background: cornflowerblue;
+    border-radius: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
+    cursor: pointer;
+}
