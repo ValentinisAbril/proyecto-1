@@ -17,3 +17,9 @@ body{
 .contenedor article {
     line-height: 28px;
 }
+
+.contenedor article h1 {
+    font-size: 30px;
+    text-align: left;
+    padding: 50px 0;
+}
