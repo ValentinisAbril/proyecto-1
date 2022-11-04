@@ -68,6 +68,15 @@ body{
     text-align: center;
     width: 600px;
 }
+
+.popup .btn-cerrar-popup {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #BBBBBB;
+    transition: .3s ease all;
+}
 /* ------------------------ */
 /* ANIMACIONES */
 /* ------------------------ */
