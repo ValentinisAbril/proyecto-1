@@ -5,12 +5,13 @@
 
 body{
     background-color: darkkhaki;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background: #ADD8E6 url("imagen/fondo de pantalla.png") 50% 25% fixed;
 }
 
 .contenedor {
     width: 90%;
-    max-width: 100%;
+    max-width: 100px;
     margin: 20px auto;
 }
 
