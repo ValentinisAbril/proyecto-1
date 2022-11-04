@@ -6,7 +6,6 @@
 body{
     background-color: darkkhaki;
     font-family: Georgia, Times, 'Times New Roman', serif;
-    background: #ADD8E6 url("imagen/fondo de pantalla.png") 50% 25% fixed;
 }
 
 .contenedor {
@@ -65,6 +64,9 @@ body{
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,.3);
     border-radius: 3px;
     font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
 }
 /* ------------------------ */
 /* ANIMACIONES */
