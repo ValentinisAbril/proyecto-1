@@ -77,6 +77,10 @@ body{
     color: #BBBBBB;
     transition: .3s ease all;
 }
+
+.popup .btn-cerrar-popup:hover {
+    color: #000;
+}
 /* ------------------------ */
 /* ANIMACIONES */
 /* ------------------------ */
