@@ -11,20 +11,13 @@
 <body>
     <div class="contenedor">
         <h1>suscripcion</h1>
-            <button class="btn-abrir-popup">Abrir Suscripcion</button>
-            <form>
-                email
-                <input type="email" name="email" id="email">
-                <input type="submit" name="onclick" onclick=addElemento(getElementByIdemail)>
-                <input type="password" name="password" id="password">
-                <input type="submit" value="onclick">
-            </form>
+            <button id="btn-abrir-popup" class="btn-abrir-popup">Abrir Suscripcion</button>
     </div>
     <div class="contenedor">
         <article> Suscribite y registrate a las delicias de pao para recibir mas beneficios a nuestra pagina</article>
 
-        <div class="overlay">
-            <div class="popup">
+        <div class="overlay" id="overlay">
+            <div class="popup" id="popup">
                 <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
                 <h3>SUSCRIBITE</h3>
                 <h4>Y recibi un cupon de descuento</h4>
