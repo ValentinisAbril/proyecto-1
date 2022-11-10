@@ -1,17 +1,18 @@
-*{
+* {
     padding: 0%;
     box-sizing: border-box;
 }
 
-body{
-    background-color: darkkhaki;
-    font-family: Georgia, Times, 'Times New Roman', serif;
+body {
+    background-color: brown;
+    font-family: 'Open Sans' , sans-serif;
 }
 
 .contenedor {
     width: 90%;
     max-width: 100px;
     margin: 20px auto;
+    
 }
 
 .contenedor article {
@@ -30,10 +31,10 @@ body{
     height: 40px;
     line-height: 40px;
     border: none;
-    color: lightskyblue;
+    color: beige;
     background: cornflowerblue;
     border-radius: 3px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     cursor: pointer;
     transition: .3s ease all;
@@ -41,13 +42,13 @@ body{
 }
 
 .contenedor article .btn-abrir-popup:hover {
-    background-color: rgb(120 220 245);
+    background-color: rgb(120, 220, 245);
 }
 
 /* ------------------------ */
 /* POPUP */
 /* ------------------------ */
-.overplay {
+.overlay {
     background: rgba(0,0,0,.3);
     position: fixed;
     top: 0;
@@ -57,6 +58,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    visibility: hidden;
+}
+
+.overlay.active {
+    visibility: visible;
 }
 
 .popup {
@@ -81,7 +87,6 @@ body{
 .popup .btn-cerrar-popup:hover {
     color: #000;
 }
-
 .popup h3 {
     font-size: 36px;
     font-weight: 600;
